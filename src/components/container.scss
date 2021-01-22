@@ -1,0 +1,17 @@
+// Hauptspalte
+.container {
+  width: 96%;
+  max-width: 56.5rem;
+  margin: 0 auto; // center
+}
+
+.container-spacer-48 {
+  height: 48px;
+}
+
+@media (max-device-width: 700px) {
+  .container {
+    width: 92%;
+}
+
+}
